@@ -1,5 +1,22 @@
-# CLion/CMake build folders
+# CLion / CMake (all local build trees — pick one generator; both are regenerable)
 cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
 
-# JetBrains specific
+# Visual Studio / MSVC CMake (common out-of-source folder name)
+build/
+out/
+.vs/
+
+# JetBrains
 .idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3-journal
+
+# OS / editor junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3 @@
+# Use MSVC compile flags + Windows SDK paths from CMake (requires configure + build dir).
+CompileFlags:
+  CompilationDatabase: build
